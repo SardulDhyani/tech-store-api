@@ -1,0 +1,33 @@
+{
+  "name": "tech-store",
+  "version": "1.0.0",
+  "description": "tech store api",
+  "main": "app.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "firebase": "^7.23.0",
+    "graphql": "^15.3.0",
+    "mongoose": "^5.10.9",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SardulDhyani/tech-store-api.git"
+  },
+  "author": "Sardul Dhyani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SardulDhyani/tech-store-api/issues"
+  },
+  "homepage": "https://github.com/SardulDhyani/tech-store-api#readme"
+}
